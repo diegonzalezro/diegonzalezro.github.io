@@ -80,14 +80,14 @@ document.addEventListener("DOMContentLoaded", function () {
           "mode": "grab"
         },
         "onclick": {
-          "enable": false,
+          "enable": true,
           "mode": "repulse"
         },
         "resize": true
       },
       "modes": {
         "grab": {
-          "distance": 400,
+          "distance": 100,
           "line_linked": {
             "opacity": 1
           }
